@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    margin-left:10%;
+    margin-left :10%;
     font-size: 8vh;
     text-shadow: 2px 2px gray;
 }
@@ -13,14 +13,15 @@ header {
 nav {
     background-color: yellowgreen;
     color: whitesmoke;
+    margin: 5vh 0;
 }
 
 a:visited {
-    color: gray;
+    color: whitesmoke;
 }
 
 a:hover {
-    font-weight: 1;
+    font-weight: bold;
 }
 
 nav ul{
@@ -62,19 +63,20 @@ section {
     margin: auto;
     width: 90%;
     height: auto;
-    background-color: rgba(128, 128, 128, 0.5);
+    /* background-color: rgba(128, 128, 128, 0.171); */
+}
+
+img {
+    border-radius: 10px;
+    opacity: .5;
+    transition-duration: 2s;
+}
+
+img:hover{
+    opacity: 100%;
 }
 
 /* section:hover {
     content: '';
     opacity: 100%;
-}
-
-section::before {
-    content: '';
-    opacity:50%;
-} */
-
-/* img {
-    background-clip: content-box;
 } */
