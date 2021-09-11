@@ -57,26 +57,26 @@ section {
     flex-direction: column;
     border: yellowgreen;
     border-style: groove;
-    border-width: 2em;
+    border-width: 1em;
     border-radius: 10px;
     padding: 2em;
-    margin: auto;
+    margin: 1em;
     width: 90%;
     height: auto;
     /* background-color: rgba(128, 128, 128, 0.171); */
 }
 
+.Projects {
+    margin: 5px;
+}
+
 img {
     border-radius: 10px;
     opacity: .5;
-    transition-duration: 2s;
+    transition-duration: 1s;
+    
 }
 
 img:hover{
     opacity: 100%;
 }
-
-/* section:hover {
-    content: '';
-    opacity: 100%;
-} */
