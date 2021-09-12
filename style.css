@@ -16,8 +16,12 @@ nav {
     margin: 5vh 0;
 }
 
-a:visited {
+a {
     color: whitesmoke;
+}
+
+a:visited {
+    color: gray;
 }
 
 a:hover {
@@ -27,6 +31,7 @@ a:hover {
 nav ul{
     /* position: sticky;  */
     font-size: large;
+    color: whitesmoke;
     padding: 8px;
     display: flex;
     justify-content: space-around;
