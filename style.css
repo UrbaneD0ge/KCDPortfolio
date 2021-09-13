@@ -10,6 +10,10 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
 }
 
+p {
+    color: var(--powderblue);
+}
+
 header {
     /* margin-left :10%; */
     font-size: 6vh;
@@ -18,8 +22,16 @@ header {
     position: absolute;
 }
 
-h3 {
+h2 {
     font-size: x-large;
+    color: var(--powderblue);
+    position: relative;
+    width: 8vw;
+    right: 10vw;
+    top: 10vh;
+    border-right: solid;
+    /* margin: 2vw; */
+    text-align: right;
 }
 
 nav {
@@ -27,7 +39,8 @@ nav {
     color: var(--skyblue);
     height: 10vh;
     padding: 20px;
-}
+    margin-right: 1vw;
+    }
 
 a {
     color: var(--skyblue);
@@ -41,55 +54,38 @@ nav ul{
     background-color: var(--slategray)
 }
 
-h2 {
-    font-size: 4vh;
-    text-shadow: none;
-}
-
 article {
-    left: 20%;
-    right: 20%;
-    width: 80%;
     display: inline;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    height: auto;
-    /* background-color: rgb(0, 0, 59); */
+    float: right;
+    padding: 20px;
 }
 
-/* section {
-    display: inline;
-    padding: 2em;
-    margin: 1em;
-    width: 90%;
-    height: auto;
-    /* background-color: rgba(128, 128, 128, 0.171); */
-} */
+section {
+    padding: 5vw;
+    margin-left: 40vw;
+}
 
-.Projects {
-    margin: 5px;
+.Work img{
+    border: var(--skyblue);
+    border-style: solid;
+    border-width: 5px;
 }
 
 .ContactMe {
-    display: flex;
-    margin: 20px;
+    /* display: flex; */
 }
 
 #ContactMe {
-    display: flex;
+    display: ;
     color: var(--slategray);
-    padding: 35px;
     justify-content: space-around;
     list-style: none;
 }
 
 /* Image fade-in */
 img {
-    border-radius: 10px;
     opacity: .5;
     transition-duration: 1s;
-    
 }
 
 img:hover{
