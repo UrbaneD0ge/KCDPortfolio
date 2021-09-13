@@ -9,22 +9,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        Kipling C. Dunlap
-        <h2> Aspiring Web Developer</h2>
-    </header>
-
+    
     <nav>
+        <header>
+            Kipling C. Dunlap
+         </header>
         <ul>
+            <li><a href="#Projects">About Me</a></li>
             <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Kip">Kip</a></li>
             <li><a href="#ContactMe">Contact Me</a></li>
        </ul>
     </nav>
 
     <article>
-    
+        
+        <section class="About Me">
+            <h3>About Me</h3>
+            <img src="http:\\www.unsplash.it/800/200" alt="Kip" id="Kip">
+            <p>Here's some info about me!</p>
+        </section>
+
         <section class="Projects" id="Projects">
+            <h3>Work</h3>
             <img src="http:\\www.unsplash.it/800/200" alt="Project1" id="Project1">
             <p>This is some content.</p>
         <br>
@@ -35,18 +41,19 @@
             <p>This is some content.</p>
 
         </section>
-            
-        <section class="Kip">
-            <img src="http:\\www.unsplash.it/800/200" alt="Kip" id="Kip">
-            <p>Here's some info about me!</p>
-        </section>
         
         <section class="ContactMe">
-            <img src="http:\\www.unsplash.it/800/200" alt="ContactMe" id="ContactMe">
-            <p>Contact Kip!</p>
-            <!-- add data/hover with mailto: -->
+            <h3><pre>Contact
+                Me</pre></h3>
+            <ul id="ContactMe">
+                <li>555.555.5555</li>
+                <li><a href="mailto:kipling.dunlap@gmail.com">Kipling.Dunlap@gmail.com></a></li>
+                <li>Github</li>
+                <li>Twitter</li>
+                <li>Spotify</li>
+            </ul>
         </section>
-       
+    
     </article>
     
 </body>
