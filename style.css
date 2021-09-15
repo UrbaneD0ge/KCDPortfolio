@@ -12,15 +12,22 @@ body {
 
 p {
     color: var(--powderblue);
+    position: relative;
 }
 
 header {
-    /* margin-left :10%; */
-    font-size: 2em;
     background-color: var(--skyblue);
     color: var(--slategray);
-    position: absolute;
+    position: relative;
     padding-left: 10%;
+    box-sizing: content-box;
+    float: left;
+}
+
+h1 {
+    position: relative;
+    font-size: 40px;
+    right: 30px;
 }
 
 h2 {
@@ -36,11 +43,13 @@ h2 {
 }
 
 nav {
+    display: flex;
+    align-items: center;
     background-color: var(--slategray);
     color: var(--skyblue);
     height: 10vh;
-    padding: 20px;
-    margin-right: 1vw;
+    /* padding: 5vw; */
+    /* margin: 1vw; */
     }
 
 a {
@@ -55,22 +64,51 @@ nav ul{
     background-color: var(--slategray)
 }
 
+li {
+    margin: 0 2vw;
+}
+
 article {
-    display: inline;
-    float: right;
+    display: flex;
+    align-self: end;
+    flex-direction: column;
+    object-fit: contain;
+    width: 60%;
+    flex-wrap: wrap;
     /* padding: 20px; */
 }
 
 section {
     padding: 0 0 0 10vw;
     margin: 0 0 10vw 5vw;
-    width: 80%;
+    width: auto;
+}
+
+.Work {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: flex-start;
 }
 
 .Work img{
     border: var(--skyblue);
     border-style: solid;
     border-width: 5px;
+    align-items: flex-end;
+    opacity: .5;
+    transition-duration: 1s;
+    justify-content: end;
+    object-fit: cover;
+    /* margin: 5px; */
+}
+
+.Work p {
+    position: absolute;
+}
+
+.Work img:hover{
+    opacity: 100%;
 }
 
 #ContactMe {
@@ -78,19 +116,18 @@ section {
     color: var(--slategray);
     justify-content: space-evenly;
     list-style: none;
+    align-self: flex-end;
+}
+
+#hero {
+    width: 100%;
+}
+
+.smol {
+    width: 50%;
 }
 
 .ContactMe {
     position: relative;
-    top: 5vh;
-}
-
-/* Image fade-in */
-img {
-    opacity: .5;
-    transition-duration: 1s;
-}
-
-img:hover{
-    opacity: 100%;
+    top: 10vh;
 }
