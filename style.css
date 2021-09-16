@@ -123,7 +123,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    
+align-items: flex-start;    
 }
 
 .Work img{
@@ -168,8 +168,11 @@ section {
     .small {
         width: 100%;
     }
+    h1 {
+        font-size: 8vw;
+    }
     nav {
-        height: 20vw;
+        height: 20vmin;
     }
     #ContactMe {
     flex-direction: column;
