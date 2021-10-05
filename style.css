@@ -15,10 +15,12 @@ body {
 header {
   background-color: var(--skyblue);
   color: var(--slategray);
-  position: relative;
-  padding-left: 10%;
-  box-sizing: content-box;
+  /* position: relative; */
+  padding-left: 6vw;
+  /* box-sizing: content-box; */
   float: left;
+  /* height: 10vh */
+;
 }
 
 /* my name */
@@ -50,7 +52,7 @@ h3 {
 }
 
 h4 {
-  font-size: 2vh;
+  font-size: 3vh;
   background-color: var(--skyblue);
   position: absolute;
   bottom: 3vh;
@@ -62,10 +64,11 @@ p {
   font-size: 3vh;
   color: var(--powderblue);
   position: relative;
+  line-height: 1.2em;
 }
 
 /* nav links */
-a {
+nav a {
   color: var(--skyblue);
 }
 
@@ -80,9 +83,8 @@ nav {
   justify-content: space-between;
   background-color: var(--slategray);
   color: var(--skyblue);
-  height: 10vh;
-  object-fit: cover;
-  width: auto;
+  height: 13vh;
+  width: 100vw;
 }
 
 nav ul {
@@ -108,33 +110,38 @@ article {
 section {
   padding: 0 0 0 10vw;
   margin: 5vh 5vw;
-  width: auto;
+  /* width: auto; */
   display: flex;
 }
 
 .Card {
   position: relative;
+  padding: 0;
 }
 
 .AboutMe {
-  padding-right: 5vw;
+  /* padding-right: 5vw; */
 }
 
 .Work {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
+  align-content: flex-start;
 }
 
 .Work img {
   border: var(--skyblue);
   border-style: solid;
   border-width: 5px;
-  align-items: flex-end;
+  align-items: flex-start;
   opacity: 0.5;
   transition-duration: 1s;
-  justify-content: end;
+  }
+
+.Work a {
+  color: var(--slategray);
 }
 
 .Work img:hover {
@@ -142,7 +149,7 @@ section {
 }
 
 .small {
-  width: 40%;
+  width: 45%;
 }
 
 .ContactMe {
@@ -151,6 +158,7 @@ section {
 
 #cover {
   background-size: cover;
+  width: 100vw;
 }
 
 #hero {
@@ -162,7 +170,7 @@ section {
   color: var(--slategray);
   justify-content: space-evenly;
   list-style: none;
-  align-self: flex-end;
+  align-self: center;
 }
 
 @media screen and (max-width: 720px) {
