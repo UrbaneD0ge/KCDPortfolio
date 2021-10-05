@@ -4,9 +4,8 @@
 [Portfolio Page](https://urbaned0ge.github.io/KCDPortfolio/)
 
 * Potfolio page based on the given mockup
-* Images are Unsplash.it stand-ins and change on page reload
-* Copy is personalized where applicable and safe for limited web deployment
-* Copy contains relevant section descriptions, fleshed out with Lorem Ipsum
+* Images are actual project screencaps, but need to be resized
+* Copy is personalized everywhere
 * Basic responsive layout parameter to adjust font sizing and layout below 720px
 * Email address contains mailto: link
 * Social links generate new tabs for the appropriate page
