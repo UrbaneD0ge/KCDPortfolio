@@ -12,4 +12,4 @@
 * In-page linking from nav bar, and external link to hosted resumé .PDF
 * Page theme colors matched with MS Paint color picker
 
-![KCD Portfolio screenshot](https://user-images.githubusercontent.com/88916382/133542639-5b7824e9-bfe1-40f8-965c-e7f21fbb82a0.png)
+![KCD Portfolio scap](https://user-images.githubusercontent.com/88916382/136111996-9123d11d-a78c-4235-b85c-2975ac647616.png)
